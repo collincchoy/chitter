@@ -1,18 +1,18 @@
 <template>
   <main class="grid">
     <aside class="container">
-      <Sidebar />
+      <TheSidebar />
     </aside>
 
     <article class="container">
-      <Chat />
+      <ChatSection />
     </article>
   </main>
 </template>
 
 <script setup lang="ts">
-import Sidebar from "@components/Sidebar.vue";
-import Chat from "@components/Chat.vue";
+import TheSidebar from "@components/TheSidebar.vue";
+import ChatSection from "@components/ChatSection.vue";
 </script>
 
 <style scoped>
